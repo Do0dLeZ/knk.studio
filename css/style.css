@@ -59,6 +59,15 @@
 *     6.1 FontAwesome 
 *     6.2 MDI
 **/
+
+/* eugene koloma classes */
+
+.company-name-bolder {
+  color: black;
+  font-weight: bold;
+}
+
+/* eugene koloma classes */
 a:focus,
 button:focus {
   outline: none !important;
@@ -4906,7 +4915,7 @@ textarea.form-input {
 }
 
 .thumb-modern__description {
-	padding-left: 50px;
+  padding-left: 50px;
 }
 
 @supports (object-fit: cover) {
