@@ -60,6 +60,8 @@
 *     6.2 MDI
 **/
 
+@import "../fonts/fonts.css";
+
 /* eugene koloma classes */
 
 .company-name-bolder {
@@ -4889,7 +4891,7 @@ textarea.form-input {
 .thumb-modern__caption {
   position: relative;
   z-index: 2;
-  padding: 30px 35px;
+  /* padding: 30px 35px; */
 }
 
 @media (min-width: 1200px) {
@@ -4899,24 +4901,24 @@ textarea.form-input {
     justify-content: flex-start;
   }
   .thumb-modern__caption {
-    padding-left: 20%;
+    padding-left: 10%;
   }
 }
 
-.thumb-modern__title,
-.thumb-modern__description {
-  font-family: "Raleway", "Times New Roman", Times, serif;
+.thumb-modern__title {
+  /* font-family: "Raleway", "Times New Roman", Times, serif; */
+  font-family: "Montserrat";
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1;
 }
 
-.thumb-modern__under-title {
-  padding-left: 50px;
+.thumb-modern__subtitle {
+  padding-left: 90px;
 }
 
-.thumb-modern__description {
-  padding-left: 50px;
+.thumb-modern__title + .thumb-modern__title {
+  margin-top: 0;
 }
 
 @supports (object-fit: cover) {
