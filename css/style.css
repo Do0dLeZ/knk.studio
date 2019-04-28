@@ -4908,13 +4908,13 @@ textarea.form-input {
 .thumb-modern__title {
   /* font-family: "Raleway", "Times New Roman", Times, serif; */
   font-family: "Montserrat";
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   line-height: 1;
 }
 
 .thumb-modern__subtitle {
-  padding-left: 90px;
+  padding-left: 110px;
 }
 
 .thumb-modern__title + .thumb-modern__title {
