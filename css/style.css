@@ -68,6 +68,11 @@
   color: black;
   font-weight: bold;
 }
+/* 
+.brand__name {
+  width: 240px;
+  height: 80px;
+} */
 
 /* eugene koloma classes */
 
@@ -14329,9 +14334,9 @@ html:not(.lt-ie10) .not-animated {
   transform: rotate(-45deg);
 }
 
-.rd-navbar-brand img {
+/* .rd-navbar-brand img {
   width: auto;
-}
+} */
 
 .rd-navbar-items-list {
   color: #aaa;
